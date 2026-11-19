@@ -224,7 +224,7 @@ void solve(int n, Edge edges[], int m, int src, int dst, int ru, int rv, bool up
 int main(void) {
     FILE *file = fopen("input.txt", "r");
     if (file == NULL) {
-        printf("Error: graph.txt file khola jaini\n");
+        printf("Error: inpt.txt\n");
         return 1;
     }
 
