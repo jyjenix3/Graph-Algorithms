@@ -138,13 +138,3 @@ Make sure `graph.txt` is in the same working directory as the executable.
 
 Through this project, I explored how different graph algorithms solve path-finding and connectivity problems. It helped me understand greedy algorithms, graph representation, Disjoint Set Union, BFS, and the effect of removing an edge from a graph.
 
-## Author
-
-**Your Name**
-
-Algorithm Lab Project  
-Department of Computer Science and Engineering
-
----
-
-*This project was developed for educational purposes as part of an Algorithm Lab course.*
