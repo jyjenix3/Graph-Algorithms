@@ -6,9 +6,9 @@
 
 GraphPath Explorer is a C programming project that explores different graph algorithms to find paths between vertices and understand how a graph is connected.
 
-The project uses Dijkstra's algorithm to find the shortest path between a source and destination. It also implements Kruskal's and Prim's algorithms to construct Minimum Spanning Trees (MSTs) and find paths within those trees.
+The project uses Dijkstra's algorithm to find the shortest path between a source and destination. It also implements Kruskal's and Prim's algorithms to build Minimum Spanning Trees (MSTs) and find paths within them.
 
-Another feature is edge removal. When a selected edge is removed, the program rebuilds the graph and runs the algorithms again to show how the path and connectivity change.
+Another feature is edge removal. When you remove a selected edge, the program rebuilds the graph and reruns the algorithms to show how the path and connectivity change.
 
 The main goal of this project is to understand how different graph algorithms work and how they handle changes in a graph.
 
@@ -40,7 +40,6 @@ The main goal of this project is to understand how different graph algorithms wo
 
 ```text
 GraphPath-Explorer/
-│
 ├── main.c
 ├── graph.txt
 └── README.md
@@ -48,7 +47,7 @@ GraphPath-Explorer/
 
 ## Input Format
 
-The program reads input from `graph.txt`.
+The program reads input from `input.txt`.
 
 Example:
 
@@ -124,7 +123,7 @@ On Windows:
 graph.exe
 ```
 
-Make sure `graph.txt` is in the same working directory as the executable.
+Make sure `input.txt` is in the same working directory as the executable.
 
 ## Technologies Used
 
